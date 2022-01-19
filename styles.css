@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-weight: 900px;
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 0 350px;
+}
+
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-panel {
+    display: flex;
+    color: #E5E7EB;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.left-hero {
+    flex: 1.5;
+    color: #F9FAF8;    
+}
+
+.right-hero {
+    flex: 1;
+}
+
+.hero-button {
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.feature-row {
+    display: flex;
+    gap: 40px;
+}
+
+.feature-block {
+    flex: 1;
+    text-align:center;
+}
+
+.feature-block img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 1000px;
+    margin: 0px;
+}
+.author {
+    font-size: 24px;
+    text-align: end;
+    font-weight: bold;
+    max-width: 1000px;
+    margin: 0px;
+}
+
+.cta-container {
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+.cta-button {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px 0;
+    color: #F9FAF8;
+}
